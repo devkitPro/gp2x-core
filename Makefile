@@ -29,4 +29,4 @@ thumb/%_crt0.o: %_crt0.s
 	$(CC)  -x assembler-with-cpp -marm -c $< -o$@
 
 dist:
-	@tar -cJf g2x-core-$(_MAJOR).$(_MINOR).$(_PATCH).tar.xz *.specs *.ld *.s gp2x_rules Makefile
+	@tar -cJf gp2x-core-$(_MAJOR).$(_MINOR).$(_PATCH).tar.xz *.specs *.ld *.s gp2x_rules Makefile
