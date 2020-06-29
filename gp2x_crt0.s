@@ -40,6 +40,8 @@ _not_used:              .word not_used
 _irq:                   .word irq
 _fiq:                   .word fiq
 	.balignl 16,0xdeadbeef
+	.long __params_addr
+	.long __params_length
 	
 @---------------------------------------------------------------------------------
 @ AXF addresses
