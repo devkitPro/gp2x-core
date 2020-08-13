@@ -2,6 +2,8 @@
 
 PORTLIBS	:=	$(PORTLIBS_PATH)/gp2x $(PORTLIBS_PATH)/armv4
 
+export PATH := $(PORTLIBS_PATH)/gp2x/bin:$(PATH)
+
 LIBORCUS	:=	$(DEVKITPRO)/liborcus
 
 #---------------------------------------------------------------------------------
